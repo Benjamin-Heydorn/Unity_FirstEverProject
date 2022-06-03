@@ -28,9 +28,4 @@ public class Player : MonoBehaviour
         rb.velocity = new Vector3(horizontal * speed, vertical, depth * speed);
     }
 
-    protected void LateUpdate()
-    {
-        //transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z);
-    }
-
 }
